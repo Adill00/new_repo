@@ -17,7 +17,7 @@ app.use(bodyParser.json());
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
-// Serve static files (like your HTML, CSS, and JavaScript)
+// Serve static files (like your HTML, CSS, & JavaScript)
 app.use(express.static(__dirname));
 
 
